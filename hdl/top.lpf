@@ -1,0 +1,18 @@
+# Mapeamento do clock do sistema
+LOCATE COMP "clk" SITE "P3";
+IOBUFFER PORT "clk" IO_TYPE=LVCMOS33;
+FREQUENCY PORT "clk" 25.0 MHz;
+
+# mapeamento da entrada do sensor PIR
+LOCATE COMP "pir_in" SITE "P18";
+IOBUFFER PORT "pir_in" IO_TYPE=LVCMOS33;
+
+# mapeamento da saída do LED RGB
+LOCATE COMP "led_r" SITE "R17";
+IOBUFFER PORT "led_r" IO_TYPE=LVCMOS33;
+
+LOCATE COMP "led_g" SITE "T18";
+IOBUFFER PORT "led_g" IO_TYPE=LVCMOS33;
+
+LOCATE COMP "led_b" SITE "K18";
+IOBUFFER PORT "led_b" IO_TYPE=LVCMOS33;
