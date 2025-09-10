@@ -1,0 +1,73 @@
+$date
+	Mon Sep  8 10:57:00 2025
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module tb_pir $end
+$var wire 1 ! ocupado_tb $end
+$var reg 1 " clk $end
+$var reg 1 # pir_in_tb $end
+$var reg 1 $ rst_n $end
+$scope module dut_pir $end
+$var wire 1 # pir_in $end
+$var reg 1 ! ocupado $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+0$
+0#
+0"
+0!
+$end
+#5000
+1"
+#10000
+0"
+1$
+#15000
+1"
+#20000
+0"
+#25000
+1"
+#30000
+1!
+0"
+1#
+#35000
+1"
+#40000
+0"
+#45000
+1"
+#50000
+0!
+0"
+0#
+#55000
+1"
+#60000
+0"
+#65000
+1"
+#70000
+1!
+0"
+1#
+#75000
+1"
+#80000
+0"
+#85000
+1"
+#90000
+0"

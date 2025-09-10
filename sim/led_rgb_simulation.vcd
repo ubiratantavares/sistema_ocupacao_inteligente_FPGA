@@ -1,0 +1,76 @@
+$date
+	Mon Sep  8 11:08:14 2025
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module tb_led_rgb $end
+$var wire 1 ! led_r_tb $end
+$var wire 1 " led_g_tb $end
+$var wire 1 # led_b_tb $end
+$var reg 1 $ clk $end
+$var reg 1 % ocupado_tb $end
+$scope module dut_led_rgb $end
+$var wire 1 % ocupado $end
+$var reg 1 # led_b $end
+$var reg 1 " led_g $end
+$var reg 1 ! led_r $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+0%
+0$
+0#
+1"
+0!
+$end
+#5000
+1$
+#10000
+0$
+#15000
+1$
+#20000
+0$
+#25000
+1$
+#30000
+0"
+1!
+0$
+1%
+#35000
+1$
+#40000
+0$
+#45000
+1$
+#50000
+0$
+#55000
+1$
+#60000
+1"
+0!
+0$
+0%
+#65000
+1$
+#70000
+0$
+#75000
+1$
+#80000
+0$
+#85000
+1$
+#90000
+0$
